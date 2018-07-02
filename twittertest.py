@@ -36,5 +36,12 @@ def displayUserTimeline(username, count=25, simple=False):
                 print(key + " : ", end="")
                 print(tweetdict[key])
 
-displayUserTimeline('PredaDante', simple=True)
-#displayUserInformation("PredaDante")
+
+def get_userinfo(name):
+    user = api.get_user(name)
+    user_info = [name.encode('utf-8'), user.name.encode('utf-8'), user.description.encode('utf-8'), user.followers_count, user.friends_count, user.created_at,	user.location.encode('utf-8')]
+    print(user_info)
+
+#displayUserTimeline('PredaDante', simple=True)
+get_userinfo("PredaDante")
+displayUserInformation("VisitScotland")
