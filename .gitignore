@@ -1,4 +1,6 @@
 __pycache__/
+datasetUserIdentification/
 *.pyc
 *.key
 .vs/
+.ipynb_checkpoints
