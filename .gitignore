@@ -4,3 +4,5 @@ datasetUserIdentification/
 *.key
 .vs/
 .ipynb_checkpoints
+.csv
+.json
