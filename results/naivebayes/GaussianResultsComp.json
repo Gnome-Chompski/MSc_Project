@@ -1,0 +1,63 @@
+{"Features": ["G_gender_enc"], "Precision": 50.09, "Accuracy": 50.03, "Recall": 70.21, "F1_score": 0.58}
+{"Features": ["name_distance"], "Precision": 92.63, "Accuracy": 86.25, "Recall": 78.75, "F1_score": 0.85}
+{"Features": ["loc_distance"], "Precision": 59.92, "Accuracy": 56.54, "Recall": 39.24, "F1_score": 0.47}
+{"Features": ["username_distance"], "Precision": 86.58, "Accuracy": 77.61, "Recall": 65.31, "F1_score": 0.74}
+{"Features": ["desc_distance"], "Precision": 54.06, "Accuracy": 53.93, "Recall": 52.34, "F1_score": 0.53}
+{"Features": ["T_gender_enc"], "Precision": 43.05, "Accuracy": 48.23, "Recall": 48.54, "F1_score": 0.41}
+{"Features": ["G_gender_enc", "name_distance"], "Precision": 92.66, "Accuracy": 86.25, "Recall": 78.72, "F1_score": 0.85}
+{"Features": ["G_gender_enc", "loc_distance"], "Precision": 59.97, "Accuracy": 56.57, "Recall": 39.3, "F1_score": 0.48}
+{"Features": ["G_gender_enc", "username_distance"], "Precision": 86.45, "Accuracy": 77.56, "Recall": 65.33, "F1_score": 0.74}
+{"Features": ["G_gender_enc", "desc_distance"], "Precision": 54.14, "Accuracy": 54.02, "Recall": 52.44, "F1_score": 0.53}
+{"Features": ["G_gender_enc", "T_gender_enc"], "Precision": 51.56, "Accuracy": 51.63, "Recall": 61.45, "F1_score": 0.55}
+{"Features": ["name_distance", "loc_distance"], "Precision": 93.17, "Accuracy": 88.14, "Recall": 82.31, "F1_score": 0.87}
+{"Features": ["name_distance", "username_distance"], "Precision": 94.68, "Accuracy": 88.56, "Recall": 81.7, "F1_score": 0.88}
+{"Features": ["name_distance", "desc_distance"], "Precision": 92.71, "Accuracy": 86.29, "Recall": 78.75, "F1_score": 0.85}
+{"Features": ["name_distance", "T_gender_enc"], "Precision": 92.63, "Accuracy": 86.25, "Recall": 78.75, "F1_score": 0.85}
+{"Features": ["loc_distance", "username_distance"], "Precision": 87.15, "Accuracy": 80.55, "Recall": 71.66, "F1_score": 0.79}
+{"Features": ["loc_distance", "desc_distance"], "Precision": 61.01, "Accuracy": 57.63, "Recall": 42.22, "F1_score": 0.5}
+{"Features": ["loc_distance", "T_gender_enc"], "Precision": 59.88, "Accuracy": 56.53, "Recall": 39.31, "F1_score": 0.47}
+{"Features": ["username_distance", "desc_distance"], "Precision": 86.12, "Accuracy": 77.74, "Recall": 66.13, "F1_score": 0.75}
+{"Features": ["username_distance", "T_gender_enc"], "Precision": 86.48, "Accuracy": 77.56, "Recall": 65.3, "F1_score": 0.74}
+{"Features": ["desc_distance", "T_gender_enc"], "Precision": 54.04, "Accuracy": 53.91, "Recall": 52.36, "F1_score": 0.53}
+{"Features": ["G_gender_enc", "name_distance", "loc_distance"], "Precision": 93.13, "Accuracy": 88.12, "Recall": 82.3, "F1_score": 0.87}
+{"Features": ["G_gender_enc", "name_distance", "username_distance"], "Precision": 94.72, "Accuracy": 88.59, "Recall": 81.71, "F1_score": 0.88}
+{"Features": ["G_gender_enc", "name_distance", "desc_distance"], "Precision": 92.71, "Accuracy": 86.28, "Recall": 78.73, "F1_score": 0.85}
+{"Features": ["G_gender_enc", "name_distance", "T_gender_enc"], "Precision": 92.67, "Accuracy": 86.25, "Recall": 78.69, "F1_score": 0.85}
+{"Features": ["G_gender_enc", "loc_distance", "username_distance"], "Precision": 87.15, "Accuracy": 80.55, "Recall": 71.66, "F1_score": 0.79}
+{"Features": ["G_gender_enc", "loc_distance", "desc_distance"], "Precision": 61.1, "Accuracy": 57.69, "Recall": 42.25, "F1_score": 0.5}
+{"Features": ["G_gender_enc", "loc_distance", "T_gender_enc"], "Precision": 59.97, "Accuracy": 56.57, "Recall": 39.28, "F1_score": 0.48}
+{"Features": ["G_gender_enc", "username_distance", "desc_distance"], "Precision": 86.09, "Accuracy": 77.7, "Recall": 66.06, "F1_score": 0.75}
+{"Features": ["G_gender_enc", "username_distance", "T_gender_enc"], "Precision": 86.51, "Accuracy": 77.57, "Recall": 65.29, "F1_score": 0.74}
+{"Features": ["G_gender_enc", "desc_distance", "T_gender_enc"], "Precision": 54.09, "Accuracy": 53.96, "Recall": 52.33, "F1_score": 0.53}
+{"Features": ["name_distance", "loc_distance", "username_distance"], "Precision": 95.85, "Accuracy": 90.4, "Recall": 84.45, "F1_score": 0.9}
+{"Features": ["name_distance", "loc_distance", "desc_distance"], "Precision": 92.74, "Accuracy": 87.88, "Recall": 82.18, "F1_score": 0.87}
+{"Features": ["name_distance", "loc_distance", "T_gender_enc"], "Precision": 93.15, "Accuracy": 88.14, "Recall": 82.31, "F1_score": 0.87}
+{"Features": ["name_distance", "username_distance", "desc_distance"], "Precision": 95.27, "Accuracy": 88.88, "Recall": 81.79, "F1_score": 0.88}
+{"Features": ["name_distance", "username_distance", "T_gender_enc"], "Precision": 94.68, "Accuracy": 88.56, "Recall": 81.7, "F1_score": 0.88}
+{"Features": ["name_distance", "desc_distance", "T_gender_enc"], "Precision": 92.71, "Accuracy": 86.27, "Recall": 78.72, "F1_score": 0.85}
+{"Features": ["loc_distance", "username_distance", "desc_distance"], "Precision": 86.88, "Accuracy": 80.23, "Recall": 71.29, "F1_score": 0.78}
+{"Features": ["loc_distance", "username_distance", "T_gender_enc"], "Precision": 87.2, "Accuracy": 80.56, "Recall": 71.63, "F1_score": 0.79}
+{"Features": ["loc_distance", "desc_distance", "T_gender_enc"], "Precision": 61.17, "Accuracy": 57.72, "Recall": 42.24, "F1_score": 0.5}
+{"Features": ["username_distance", "desc_distance", "T_gender_enc"], "Precision": 86.17, "Accuracy": 77.76, "Recall": 66.13, "F1_score": 0.75}
+{"Features": ["G_gender_enc", "name_distance", "loc_distance", "username_distance"], "Precision": 95.81, "Accuracy": 90.36, "Recall": 84.39, "F1_score": 0.9}
+{"Features": ["G_gender_enc", "name_distance", "loc_distance", "desc_distance"], "Precision": 92.79, "Accuracy": 87.9, "Recall": 82.18, "F1_score": 0.87}
+{"Features": ["G_gender_enc", "name_distance", "loc_distance", "T_gender_enc"], "Precision": 93.13, "Accuracy": 88.12, "Recall": 82.3, "F1_score": 0.87}
+{"Features": ["G_gender_enc", "name_distance", "username_distance", "desc_distance"], "Precision": 95.3, "Accuracy": 88.89, "Recall": 81.78, "F1_score": 0.88}
+{"Features": ["G_gender_enc", "name_distance", "username_distance", "T_gender_enc"], "Precision": 94.74, "Accuracy": 88.6, "Recall": 81.71, "F1_score": 0.88}
+{"Features": ["G_gender_enc", "name_distance", "desc_distance", "T_gender_enc"], "Precision": 92.69, "Accuracy": 86.27, "Recall": 78.72, "F1_score": 0.85}
+{"Features": ["G_gender_enc", "loc_distance", "username_distance", "desc_distance"], "Precision": 86.95, "Accuracy": 80.28, "Recall": 71.3, "F1_score": 0.78}
+{"Features": ["G_gender_enc", "loc_distance", "username_distance", "T_gender_enc"], "Precision": 87.18, "Accuracy": 80.55, "Recall": 71.63, "F1_score": 0.79}
+{"Features": ["G_gender_enc", "loc_distance", "desc_distance", "T_gender_enc"], "Precision": 61.09, "Accuracy": 57.68, "Recall": 42.24, "F1_score": 0.5}
+{"Features": ["G_gender_enc", "username_distance", "desc_distance", "T_gender_enc"], "Precision": 86.09, "Accuracy": 77.68, "Recall": 66.03, "F1_score": 0.75}
+{"Features": ["name_distance", "loc_distance", "username_distance", "desc_distance"], "Precision": 95.9, "Accuracy": 90.45, "Recall": 84.49, "F1_score": 0.9}
+{"Features": ["name_distance", "loc_distance", "username_distance", "T_gender_enc"], "Precision": 95.85, "Accuracy": 90.4, "Recall": 84.45, "F1_score": 0.9}
+{"Features": ["name_distance", "loc_distance", "desc_distance", "T_gender_enc"], "Precision": 92.76, "Accuracy": 87.9, "Recall": 82.19, "F1_score": 0.87}
+{"Features": ["name_distance", "username_distance", "desc_distance", "T_gender_enc"], "Precision": 95.27, "Accuracy": 88.88, "Recall": 81.79, "F1_score": 0.88}
+{"Features": ["loc_distance", "username_distance", "desc_distance", "T_gender_enc"], "Precision": 87.05, "Accuracy": 80.29, "Recall": 71.23, "F1_score": 0.78}
+{"Features": ["G_gender_enc", "name_distance", "loc_distance", "username_distance", "desc_distance"], "Precision": 95.91, "Accuracy": 90.45, "Recall": 84.48, "F1_score": 0.9}
+{"Features": ["G_gender_enc", "name_distance", "loc_distance", "username_distance", "T_gender_enc"], "Precision": 95.83, "Accuracy": 90.37, "Recall": 84.39, "F1_score": 0.9}
+{"Features": ["G_gender_enc", "name_distance", "loc_distance", "desc_distance", "T_gender_enc"], "Precision": 92.79, "Accuracy": 87.9, "Recall": 82.18, "F1_score": 0.87}
+{"Features": ["G_gender_enc", "name_distance", "username_distance", "desc_distance", "T_gender_enc"], "Precision": 95.26, "Accuracy": 88.87, "Recall": 81.78, "F1_score": 0.88}
+{"Features": ["G_gender_enc", "loc_distance", "username_distance", "desc_distance", "T_gender_enc"], "Precision": 86.96, "Accuracy": 80.28, "Recall": 71.29, "F1_score": 0.78}
+{"Features": ["name_distance", "loc_distance", "username_distance", "desc_distance", "T_gender_enc"], "Precision": 95.88, "Accuracy": 90.45, "Recall": 84.51, "F1_score": 0.9}
+{"Features": ["G_gender_enc", "name_distance", "loc_distance", "username_distance", "desc_distance", "T_gender_enc"], "Precision": 95.9, "Accuracy": 90.44, "Recall": 84.48, "F1_score": 0.9}
