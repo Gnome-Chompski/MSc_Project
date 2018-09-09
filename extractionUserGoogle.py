@@ -11,11 +11,14 @@ SCOPES = ["https://www.googleapis.com/auth/userinfo.profile"]
 API_SERVICE_NAME = "plus"
 API_VERSION = "v1"
 
+#Start Reading from line in file
 START = 10000
+#Stop reading from line in file
 END = 10571
 
 MISTAKES = 0
 
+#Return API object to make requests to Google+ API
 def get_authenticated_service():
     flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, SCOPES)
     credentials = flow.run_local_server(host='localhost',
@@ -25,6 +28,7 @@ def get_authenticated_service():
         open_browser=True)
     return build(API_SERVICE_NAME, API_VERSION, credentials = credentials)
 
+#Callback function, deals with each person request
 def process_person(request_id, response, exception):
     global MISTAKES
     if exception is not None:
@@ -35,9 +39,11 @@ def process_person(request_id, response, exception):
         with open("usersGooglePlus.json", "a", encoding="utf-8") as file:
             file.write(json.dumps(response) + "\n")
 
+#Create service and Http batch objects
 service = get_authenticated_service()
 batch = service.new_batch_http_request()
 
+#Iterate through segments of the list to add to the batch request
 with open("handlesGoogle.txt", "r", encoding="utf-8") as userFile:
     counter = 0
     addedInBatch = 0

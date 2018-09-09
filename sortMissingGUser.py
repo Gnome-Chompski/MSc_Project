@@ -6,18 +6,27 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google_auth_oauthlib.flow import InstalledAppFlow
 
+"""
+Very similar to the extraction script for G+ users the aim here is to find out
+issues with quota limits and API calls. So additional variables are used to
+keep track of errors.
+"""
+
 CLIENT_SECRETS_FILE = "client_id_gplus.json"
 SCOPES = ["https://www.googleapis.com/auth/userinfo.profile"]
 API_SERVICE_NAME = "plus"
 API_VERSION = "v1"
 
+#Read lines in file from START to END
 START = 0
 END = 244
 
+#Track number of errors, total, 404 and 403
 MISTAKES = 0
 m404 = 0
 m403 = 0
 
+#Return the service object
 def get_authenticated_service():
     flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, SCOPES)
     credentials = flow.run_local_server(host='localhost',
@@ -27,6 +36,7 @@ def get_authenticated_service():
         open_browser=True)
     return build(API_SERVICE_NAME, API_VERSION, credentials = credentials)
 
+#Batch request callback, handle a single response
 def process_person(request_id, response, exception):
     global MISTAKES
     global m404
@@ -47,8 +57,8 @@ def process_person(request_id, response, exception):
         with open("usersGooglePlus.json", "a", encoding="utf-8") as file:
             file.write(json.dumps(response) + "\n")
 
-service = get_authenticated_service()
-batch = service.new_batch_http_request()
+service = get_authenticated_service() #API object
+batch = service.new_batch_http_request() #Batch object
 
 with open("missedGUsers3.txt", "r", encoding="utf-8") as userFile:
     counter = 0

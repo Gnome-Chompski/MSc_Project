@@ -6,6 +6,8 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google_auth_oauthlib.flow import InstalledAppFlow
 
+#Experimentation with google+ API retrieves a person
+
 CLIENT_SECRETS_FILE = "client_id_gplus.json"
 SCOPES = ["https://www.googleapis.com/auth/userinfo.profile"]
 API_SERVICE_NAME = "plus"
